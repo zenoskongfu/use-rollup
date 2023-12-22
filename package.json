@@ -1,0 +1,31 @@
+{
+	"name": "use-rollup",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "vite",
+		"build": "vite -c ./vite.config.prod.js build",
+		"preview": "vite preview",
+		"postinstall": "npm link rollup-build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/react": "^18.2.43",
+		"@types/react-dom": "^18.2.17",
+		"@vitejs/plugin-react": "^4.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.7",
+		"vite-plugin-chunk-split": "^0.5.0",
+		"vite-plugin-externals": "^0.6.2"
+	},
+	"devDependencies": {
+		"vite-plugin-commonjs": "^0.10.1",
+		"vite-plugin-html": "^3.2.0"
+	}
+}
